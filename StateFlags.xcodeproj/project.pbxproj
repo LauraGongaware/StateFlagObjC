@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		D3A6B98B287DDE0100B105E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B98A287DDE0100B105E7 /* AppDelegate.m */; };
 		D3A6B98E287DDE0100B105E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B98D287DDE0100B105E7 /* SceneDelegate.m */; };
-		D3A6B991287DDE0100B105E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B990287DDE0100B105E7 /* ViewController.m */; };
 		D3A6B994287DDE0100B105E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A6B992287DDE0100B105E7 /* Main.storyboard */; };
-		D3A6B996287DDE0300B105E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A6B995287DDE0300B105E7 /* Assets.xcassets */; };
 		D3A6B999287DDE0300B105E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A6B997287DDE0300B105E7 /* LaunchScreen.storyboard */; };
 		D3A6B99C287DDE0300B105E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B99B287DDE0300B105E7 /* main.m */; };
+		D3A6B9A6287DDF3C00B105E7 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B9A5287DDF3C00B105E7 /* State.m */; };
+		D3A6B9AA287DE3E100B105E7 /* StateController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B9A9287DE3E100B105E7 /* StateController.m */; };
+		D3A6B9AD287DE40100B105E7 /* StateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B9AC287DE40100B105E7 /* StateHelper.m */; };
+		D3A6B9B2287DEF2D00B105E7 /* StateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B9B1287DEF2D00B105E7 /* StateCollectionViewController.m */; };
+		D3A6B9B5287DEF4900B105E7 /* StateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6B9B4287DEF4900B105E7 /* StateCollectionViewCell.m */; };
+		D3A6B9B7287DF2B400B105E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A6B9B6287DF2B400B105E7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,21 @@
 		D3A6B98A287DDE0100B105E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D3A6B98C287DDE0100B105E7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D3A6B98D287DDE0100B105E7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D3A6B98F287DDE0100B105E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3A6B990287DDE0100B105E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3A6B993287DDE0100B105E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3A6B995287DDE0300B105E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A6B998287DDE0300B105E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A6B99A287DDE0300B105E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A6B99B287DDE0300B105E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3A6B9A4287DDF3C00B105E7 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		D3A6B9A5287DDF3C00B105E7 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		D3A6B9A8287DE3E100B105E7 /* StateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateController.h; sourceTree = "<group>"; };
+		D3A6B9A9287DE3E100B105E7 /* StateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateController.m; sourceTree = "<group>"; };
+		D3A6B9AB287DE40100B105E7 /* StateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateHelper.h; sourceTree = "<group>"; };
+		D3A6B9AC287DE40100B105E7 /* StateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateHelper.m; sourceTree = "<group>"; };
+		D3A6B9B0287DEF2D00B105E7 /* StateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateCollectionViewController.h; sourceTree = "<group>"; };
+		D3A6B9B1287DEF2D00B105E7 /* StateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateCollectionViewController.m; sourceTree = "<group>"; };
+		D3A6B9B3287DEF4900B105E7 /* StateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateCollectionViewCell.h; sourceTree = "<group>"; };
+		D3A6B9B4287DEF4900B105E7 /* StateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateCollectionViewCell.m; sourceTree = "<group>"; };
+		D3A6B9B6287DF2B400B105E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +73,67 @@
 		D3A6B988287DDE0100B105E7 /* StateFlags */ = {
 			isa = PBXGroup;
 			children = (
-				D3A6B989287DDE0100B105E7 /* AppDelegate.h */,
-				D3A6B98A287DDE0100B105E7 /* AppDelegate.m */,
-				D3A6B98C287DDE0100B105E7 /* SceneDelegate.h */,
-				D3A6B98D287DDE0100B105E7 /* SceneDelegate.m */,
-				D3A6B98F287DDE0100B105E7 /* ViewController.h */,
-				D3A6B990287DDE0100B105E7 /* ViewController.m */,
-				D3A6B992287DDE0100B105E7 /* Main.storyboard */,
-				D3A6B995287DDE0300B105E7 /* Assets.xcassets */,
-				D3A6B997287DDE0300B105E7 /* LaunchScreen.storyboard */,
+				D3A6B9AE287DEC8600B105E7 /* ViewController */,
+				D3A6B9AF287DED1700B105E7 /* Views */,
+				D3A6B9A7287DDF4500B105E7 /* Controllers */,
+				D3A6B9A3287DDEDC00B105E7 /* Model */,
+				D3A6B9A2287DDE3800B105E7 /* Resources */,
 				D3A6B99A287DDE0300B105E7 /* Info.plist */,
 				D3A6B99B287DDE0300B105E7 /* main.m */,
 			);
 			path = StateFlags;
+			sourceTree = "<group>";
+		};
+		D3A6B9A2287DDE3800B105E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6B9B6287DF2B400B105E7 /* Assets.xcassets */,
+				D3A6B989287DDE0100B105E7 /* AppDelegate.h */,
+				D3A6B98A287DDE0100B105E7 /* AppDelegate.m */,
+				D3A6B98C287DDE0100B105E7 /* SceneDelegate.h */,
+				D3A6B98D287DDE0100B105E7 /* SceneDelegate.m */,
+				D3A6B992287DDE0100B105E7 /* Main.storyboard */,
+				D3A6B997287DDE0300B105E7 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3A6B9A3287DDEDC00B105E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6B9A4287DDF3C00B105E7 /* State.h */,
+				D3A6B9A5287DDF3C00B105E7 /* State.m */,
+				D3A6B9AB287DE40100B105E7 /* StateHelper.h */,
+				D3A6B9AC287DE40100B105E7 /* StateHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3A6B9A7287DDF4500B105E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6B9A8287DE3E100B105E7 /* StateController.h */,
+				D3A6B9A9287DE3E100B105E7 /* StateController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3A6B9AE287DEC8600B105E7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6B9B0287DEF2D00B105E7 /* StateCollectionViewController.h */,
+				D3A6B9B1287DEF2D00B105E7 /* StateCollectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D3A6B9AF287DED1700B105E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6B9B3287DEF4900B105E7 /* StateCollectionViewCell.h */,
+				D3A6B9B4287DEF4900B105E7 /* StateCollectionViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A6B999287DDE0300B105E7 /* LaunchScreen.storyboard in Resources */,
-				D3A6B996287DDE0300B105E7 /* Assets.xcassets in Resources */,
+				D3A6B9B7287DF2B400B105E7 /* Assets.xcassets in Resources */,
 				D3A6B994287DDE0100B105E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,10 +206,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A6B991287DDE0100B105E7 /* ViewController.m in Sources */,
 				D3A6B98B287DDE0100B105E7 /* AppDelegate.m in Sources */,
+				D3A6B9AD287DE40100B105E7 /* StateHelper.m in Sources */,
+				D3A6B9AA287DE3E100B105E7 /* StateController.m in Sources */,
 				D3A6B99C287DDE0300B105E7 /* main.m in Sources */,
+				D3A6B9B5287DEF4900B105E7 /* StateCollectionViewCell.m in Sources */,
 				D3A6B98E287DDE0100B105E7 /* SceneDelegate.m in Sources */,
+				D3A6B9A6287DDF3C00B105E7 /* State.m in Sources */,
+				D3A6B9B2287DEF2D00B105E7 /* StateCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
